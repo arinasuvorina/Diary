@@ -1,0 +1,486 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background: #bc2131;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+p {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-semi-bold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.starter-template {
+  margin-top: 250px;
+}
+.starter-template .content {
+  margin-left: 10px;
+}
+.starter-template .content h1 {
+  margin-top: 10px;
+  font-size: 60px;
+}
+.starter-template .content h1 .smaller {
+  font-size: 40px;
+  color: #f2b7bd;
+}
+.starter-template .content .lead {
+  font-size: 25px;
+  color: #f2b7bd;
+}
+.starter-template .content .lead .font-normal {
+  color: #ffffff;
+}
+.starter-template .links {
+  float: right;
+  right: 0;
+  margin-top: 125px;
+}
+.starter-template .links ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.starter-template .links ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+.starter-template .links ul li:first-child {
+  margin-left: 0;
+}
+.starter-template .links ul li:last-child {
+  margin-right: 0;
+}
+.starter-template .links ul li.current-version {
+  color: #f2b7bd;
+  font-weight: 400;
+}
+.starter-template .links ul li a, a {
+  color: #f2b7bd;
+  text-decoration: underline;
+}
+.starter-template .links ul li a:hover, a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.starter-template .links ul li .icon-muted {
+  color: #eb8b95;
+  margin-right: 5px;
+}
+.starter-template .links ul li:hover .icon-muted {
+  color: #ffffff;
+}
+.starter-template .copyright {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #f2b7bd;
+  text-transform: lowercase;
+  float: right;
+  right: 0;
+}
+@media (max-width: 1199px) {
+  .starter-template .content h1 {
+    font-size: 45px;
+  }
+  .starter-template .content h1 .smaller {
+    font-size: 30px;
+  }
+  .starter-template .content .lead {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .starter-template {
+    margin-top: 0;
+  }
+  .starter-template .logo {
+    margin: 40px auto;
+  }
+  .starter-template .content {
+    margin-left: 0;
+    text-align: center;
+  }
+  .starter-template .content h1 {
+    margin-bottom: 20px;
+  }
+  .starter-template .links {
+    float: none;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .starter-template .copyright {
+    float: none;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .starter-template .content h1 .smaller {
+    font-size: 25px;
+    display: block;
+  }
+  .starter-template .content .lead {
+    font-size: 16px;
+  }
+  .starter-template .links {
+    margin-top: 40px;
+  }
+  .starter-template .links ul li {
+    display: block;
+    margin: 0;
+  }
+  .starter-template .links ul li .icon-muted {
+    display: none;
+  }
+  .starter-template .copyright {
+    margin-top: 20px;
+  }
+}
+
+.main {
+  width: 100%;
+  background: url("background.jpg");
+}
+
+.Mood {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  height: 40px;
+  width: 300px;
+  font-size: 20px;
+  left: 20px;
+  top: 70px;
+}
+
+.Mood:hover {
+  background: #60B900;
+}
+
+.Feeling {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 115px;
+}
+
+.Feeling:hover {
+  background: #60B900;
+}
+
+.Today {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 160px;
+}
+
+.Today:hover {
+  background: #60B900;
+}
+
+.Good {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 205px;
+}
+
+.Good:hover {
+  background: #60B900;
+}
+
+.Bad {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 250px;
+}
+
+.Bad:hover {
+  background: #60B900;
+}
+
+.Like {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 295px;
+}
+
+.Like:hover {
+  background: #60B900;
+}
+
+.Hate {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 340px;
+}
+
+.Hate:hover {
+  background: #60B900;
+}
+
+.Time {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 385px;
+}
+
+.Time:hover {
+  background: #60B900;
+}
+
+.MoneyPlus {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 430px;
+}
+
+.MoneyPlus:hover {
+  background: #60B900;
+}
+
+.MoneyMinus {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 475px;
+}
+
+.MoneyMinus:hover {
+  background: #60B900;
+}
+
+.Quote {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 520px;
+}
+
+.Quote:hover {
+  background: #60B900;
+}
+
+.Dream {
+  background: #7AEE3C;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 565px;
+}
+
+.Dream:hover {
+  background: #60B900;
+}
+
+.dayText {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 70px;
+    height: 45px;
+    position: absolute;
+    left: 490px;
+    top: 10px;
+    resize: none;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.monthText {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    left: 570px;
+    top: 10px;
+    resize: none;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.yearText {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 110px;
+    height: 45px;
+    position: absolute;
+    left: 730px;
+    top: 10px;
+    resize: none;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.userName {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 180px;
+    height: 45px;
+    position: absolute;
+    left: 1040px;
+    top: 10px;
+    resize: none;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.Exit {
+    background: #7AEE3C;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    left: 1230px;
+    top: 10px;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.Exit:hover {
+    background: #60B900;
+}
+
+.GoHome {
+    background: #7AEE3C;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 -2px 0 3px #60B900 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+
+.GoHome:hover {
+    background: #60B900;
+}

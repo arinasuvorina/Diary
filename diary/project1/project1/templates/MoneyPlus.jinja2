@@ -1,0 +1,8 @@
+{% extends "Day.jinja2" %}
+{% block  content %}
+    <form method="post" action="save">
+        <textarea class="name" name="articleType">Деньги +</textarea>
+        <textarea class="text" name="text">{{ text }}</textarea>
+        <button class="Save">Сохранить</button>
+    </form>
+{% endblock %}

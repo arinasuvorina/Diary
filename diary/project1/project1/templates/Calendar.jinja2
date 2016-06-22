@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Diary</title>
+            <link rel="stylesheet" href="{{request.static_url('project1:static/calendarTheme.css')}}">
+	</head>
+	<body class="main">
+        <form method="post" action="home">
+            <textarea disabled class="userName">{{ login }}</textarea>
+            <select id="year" class="select-year" name="year_num">
+                <option value="-1" disabled selected>Год</option>
+                <option value="1" class="year">2015</option>
+                <option value="2" class="year">2016</option>
+                <option value="3" class="year">2017</option>
+            </select>
+            <select id="month" class="select-month" name="month_num">
+                <option value="-1" disabled selected>Месяц</option>
+                <option value="1" class="month">Январь</option>
+                <option value="2" class="month">Февраль</option>
+                <option value="3" class="month">Март</option>
+                <option value="4" class="month">Апрель</option>
+                <option value="5" class="month">Май</option>
+                <option value="6" class="month">Июнь</option>
+                <option value="7" class="month">Июль</option>
+                <option value="8" class="month">Август</option>
+                <option value="9" class="month">Сентябрь</option>
+                <option value="10" class="month">Октябрь</option>
+                <option value="11" class="month">Ноябрь</option>
+                <option value="12" class="month">Декабрь</option>
+            </select>
+            <select id="day" class="select-day" name="day_num">
+                <option value="-1" disabled selected>День</option>
+                <option value="1" class="month">1</option>
+                <option value="2" class="month">2</option>
+                <option value="3" class="month">3</option>
+                <option value="4" class="month">4</option>
+                <option value="5" class="month">5</option>
+                <option value="6" class="month">6</option>
+                <option value="7" class="month">7</option>
+                <option value="8" class="month">8</option>
+                <option value="9" class="month">9</option>
+                <option value="10" class="month">10</option>
+                <option value="11" class="month">11</option>
+                <option value="12" class="month">12</option>
+                <option value="13" class="month">13</option>
+                <option value="14" class="month">14</option>
+                <option value="15" class="month">15</option>
+                <option value="16" class="month">16</option>
+                <option value="17" class="month">17</option>
+                <option value="18" class="month">18</option>
+                <option value="19" class="month">19</option>
+                <option value="20" class="month">20</option>
+                <option value="21" class="month">21</option>
+                <option value="22" class="month">22</option>
+                <option value="23" class="month">23</option>
+                <option value="24" class="month">24</option>
+                <option value="25" class="month">25</option>
+                <option value="26" class="month">26</option>
+                <option value="27" class="month">27</option>
+                <option value="28" class="month">28</option>
+                <option value="29" class="month">29</option>
+                <option value="30" class="month">30</option>
+                <option value="31" class="month">31</option>
+            </select>
+            <div><a href="/home"><button class="goToDay">Перейти</button></a></div>
+            <script src="{{request.static_url('project1:static/sendDate.js')}}"></script>
+        </form>
+    <div><a href="/logout"><button class="Logout">Выйти</button></a></div>
+	</body>
+</html>
+
+

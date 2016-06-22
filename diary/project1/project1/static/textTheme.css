@@ -1,0 +1,49 @@
+ .name {
+    background: #EABCE2;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0 -2px 0 6px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 730px;
+    height: 80px;
+    position: absolute;
+    left: 490px;
+    top: 70px;
+    font-size: 50px;
+    color: rgb(0,0,0);
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.text {
+    border: 3px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0 -2px 0 6px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    left: 490px;
+    top: 168px;
+    resize: none;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.Save {
+    background: #EABCE2;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 730px;
+    position: absolute;
+    font-size: 20px;
+    left: 490px;
+    top: 565px;
+}
+
+.Save:hover {
+    background: #E47ED3;
+}

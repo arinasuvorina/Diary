@@ -1,0 +1,125 @@
+h1 {
+  position: absolute;
+  left: 680px;
+  top: 20px;
+}
+
+.Delight {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 450px;
+  top: 150px;
+}
+
+.Enthusiasm {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 450px;
+  top: 230px;
+}
+
+.Joy {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 450px;
+  top: 310px;
+}
+
+.Indifference {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 450px;
+  top: 390px;
+}
+
+.Sadness {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 850px;
+  top: 150px;
+}
+
+.Anxiety {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 850px;
+  top: 230px;
+}
+
+.Disappointment {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 850px;
+  top: 310px;
+}
+
+.Anger {
+  background: #EABCE2;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 -2px 0 3px #E47ED3 inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 280px;
+  position: absolute;
+  font-size: 30px;
+  left: 850px;
+  top: 390px;
+}

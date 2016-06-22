@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Diary</title>
+            <link rel="stylesheet" href="{{request.static_url('project1:static/dayTheme.css')}}">
+            <link rel="stylesheet" href="{{request.static_url('project1:static/moodTheme.css')}}">
+            <link rel="stylesheet" href="{{request.static_url('project1:static/textTheme.css')}}">
+	</head>
+	<body class="main">
+        <textarea disabled class="dayText">{{ day }}</textarea>
+        <textarea disabled class="monthText">{{ month }}</textarea>
+        <textarea disabled class="yearText">{{ year }}</textarea>
+        <textarea disabled class="userName">{{ login }}</textarea>
+        <a href="/home"><button id="goHome" class="GoHome">Календарь</button></a>
+        <a href="/logout"><button id="exit" class="Exit">Выйти</button></a>
+        <a href="/mood"><button id="mood" class="Mood">Настроение</button></a>
+        <a href="/feeling"><button id="feeling" class="Feeling">Самочувствие</button></a>
+        <a href="/today"><button id="today" class="Today">Сегодня</button></a>
+        <a href="/good"><button id="good" class="Good">Хорошее</button></a>
+        <a href="/bad"><button id="bad" class="Bad">Плохое</button></a>
+        <a href="/like"><button id="like" class="Like">Нравится</button></a>
+        <a href="/hate"><button id="hate" class="Hate">Ненавижу</button></a>
+        <a href="/time"><button id="time" class="Time">Куда ушло время</button></a>
+        <a href="/moneyPlus"><button id="moneyPlus" class="MoneyPlus">Деньги +</button></a>
+        <a href="/moneyMinus"><button id="moneyMinus" class="MoneyMinus">Деньги -</button></a>
+        <a href="/quote"><button id="quote" class="Quote">Цитата дня</button></a>
+        <a href="/dream"><button id="dream" class="Dream">Сон</button></a>
+        {% block content %}{% endblock %}
+	</body>
+</html>
